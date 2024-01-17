@@ -10,4 +10,7 @@ npm --version
 node --version
 npm run build
 npm start
+npm test
 code application.code-workspace
+
+#rm -rf node_modules/
