@@ -1,0 +1,15 @@
+#version: '3.9'  # Update to the latest stable version if needed
+services:
+  asterisk:
+    image: your-asterisk-image-name:latest  # Replace with your image name
+    restart: unless-stopped
+    volumes:
+      - ./configs:/etc/asterisk:ro  # Mount your configs directory (read-only)
+    ports:
+      - 5060:5060  # Expose SIP signaling port (adjust based on needs)
+      - 8089:8089  # Expose Asterisk web interface port (adjust based on needs)
+
+networks:
+  my-network:  # Define the network separately
+    external: true  # Optional: Connect to an existing network
+
