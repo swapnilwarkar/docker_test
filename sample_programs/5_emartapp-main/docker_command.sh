@@ -1,0 +1,16 @@
+docker compose up -d
+docker ps
+ip addr show
+
+# Go to browser enter http://VMIp:80
+
+# Clean up
+docker-compose down
+
+docker info
+docker images
+docker ps
+docker ps -a
+
+#docker compose down
+
