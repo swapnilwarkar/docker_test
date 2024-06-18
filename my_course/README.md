@@ -21,3 +21,7 @@ https://github.com/vistasunil/CT_DevOps_WS_Module5
 Day 6 : 
 https://www.thecloudtrain.com/devops-workshop-day-6
 https://github.com/vistasunil/CT_DevOps_WS_Module6
+
+Day 7 : 
+https://www.thecloudtrain.com/devops-workshop-day-7
+https://github.com/vistasunil/CT_DevOps_WS_Module7
